@@ -6,10 +6,11 @@ import { useEffect } from 'react';
 import authService from './appwrite/auth.js';
 import { Footer, Header } from './components/index.js';
 import { login , logout } from './store/authSlice.js';
+import {Outlet} from 'react-router-dom'
 function App() {
   const [loading , setLoading] = useState(true);
   const dispatch = useDispatch();
-  
+
   useEffect(() => {
     authService.getCurrentUser()
     .then((userData) => {
@@ -29,8 +30,8 @@ function App() {
     <>
       <div className='min-h-screen flex flex-col flex-wrap content-between bg-gray-400 items-center'>
         <Header />
-        <main>
-            <h1>Todo</h1>
+        <main className='w-full'>
+            <Outlet />
         </main>
         <Footer />
       </div>
