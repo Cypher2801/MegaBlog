@@ -63,11 +63,16 @@ Ensure you have the following installed:
    ## 📸 Screenshots
 
 ### 🏠 Home Page
-![Home Page](https://your-image-url.com/home.png)
+![Home Page](https://res.cloudinary.com/darolhghb/image/upload/v1738851018/blog/oymqlqfy5jlpcp95x2yl.png)
 
 ### 📝 Blog Editor
 <p align="center">
-  <img src="https://your-image-url.com/editor.png" alt="Editor" width="700">
+  <img src="https://res.cloudinary.com/darolhghb/image/upload/v1738851016/blog/vjuypag3mo3xbaq9opmt.png" alt="Editor" width="700">
+</p>
+
+### 📝 Blog Page
+<p align="center">
+  <img src="https://res.cloudinary.com/darolhghb/image/upload/v1738851018/blog/zact6qrnv754hvfthetz.png" alt="Editor" width="700">
 </p>
 
 
