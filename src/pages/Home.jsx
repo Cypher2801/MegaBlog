@@ -7,6 +7,7 @@ export default function Home() {
     const [posts, setPosts ] = useState([])
     useEffect(() => {
         service.getPosts().then((posts) => posts ? setPosts(posts.documents) : null)
+        // console.log(posts);
     } , [posts]);
     if(posts.length === 0){
         return <div className="py-8 w-full">No posts found</div>
