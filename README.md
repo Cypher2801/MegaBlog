@@ -60,6 +60,17 @@ Ensure you have the following installed:
    npm start  # or yarn start
    ```
 
+   ## 📸 Screenshots
+
+### 🏠 Home Page
+![Home Page](https://your-image-url.com/home.png)
+
+### 📝 Blog Editor
+<p align="center">
+  <img src="https://your-image-url.com/editor.png" alt="Editor" width="700">
+</p>
+
+
 ## 🔌 Folder Structure
 ```
 📂 blogging-app/
